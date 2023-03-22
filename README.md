@@ -11,7 +11,7 @@ Petit jeux 2D avec la minilibx 42
 	- mlx_new_windows	: gestion fenetre.
 	- mlx_pixel_put		: dessine dans la fenetre.
 	- mlx_new_image		: manipule les images.
-	- mlx_loop			: gestion clavier et souris.
+	- mlx_loop		: gestion clavier et souris.
 
 ## - Compilation particuliere.
 	- MiniLibx pour linux recquiert les dependances:
@@ -43,4 +43,4 @@ Petit jeux 2D avec la minilibx 42
 	- mlx_new_windows	: gestion fenetre.
 	- mlx_pixel_put		: dessine dans la fenetre.
 	- mlx_new_image		: manipule les images.
-	- mlx_loop			: gestion clavier et souris.
+	- mlx_loop		: gestion clavier et souris.
