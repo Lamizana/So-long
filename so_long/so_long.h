@@ -30,31 +30,31 @@
 typedef struct s_image
 {
 	void	*img;
-	int		img_x;
-	int		img_y;
-	int		count;
-}			t_image;
+	int	img_x;
+	int	img_y;
+	int	count;
+}		t_image;
 
 typedef struct s_map
 {
 	void	*mlx;
 	void	*win;
 	char	**tab;
-	int		line;
-	int		len;
-	int		fd;
+	int	line;
+	int	len;
+	int	fd;
 	t_image	*player;
 	t_image	*ground;
 	t_image	*wall;
 	t_image	*door;
 	t_image	*item;
-}			t_map;
+}		t_map;
 
 /* PARSING MAP AND ROAD */
 void	check_arg(int argc, char *argv[], t_map *map);
 void	check_alphanum(t_map *map, int i, int j);
-int		parse_door_player(t_map *map);
-int		parse_wall(t_map *map);
+int	parse_door_player(t_map *map);
+int	parse_wall(t_map *map);
 void	parse_item(t_map *map);
 
 char	**duplicate_map(t_map *map);
@@ -74,10 +74,10 @@ void	ft_error(t_map *map, int flag);
 void	ft_destroy_image(t_map *map);
 void	ft_free_tmp(char **tmp, t_map *map);
 void	ft_free(t_map *map);
-int		ft_close(t_map *map);
+int	ft_close(t_map *map);
 
 /* EVENTS */
-int		handle_key(int key, t_map *map);
+int	handle_key(int key, t_map *map);
 void	move_up(int key, t_map *map);
 void	move_down(int key, t_map *map);
 void	move_right(int key, t_map *map);
