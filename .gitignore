@@ -1,0 +1,18 @@
+# Fichiers objets
+*.o
+*.a
+
+# Binaires compilés
+so_long/so_long
+so_long/solong_bonus
+
+# Objets MiniLibX
+so_long/mlx_linux/obj/
+
+# Dossier tuto / ressources personnelles
+utils/
+
+# Fichiers temporaires
+*.swp
+*~
+.DS_Store
