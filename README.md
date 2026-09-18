@@ -214,7 +214,6 @@ Plusieurs cartes de test sont fournies dans le dossier `so_long/` :
 
 ---
 
-
 ## Auteur
 
 **Alex Lamizana** : Étudiant 42 Angoulême, spécialisation Data & IA
