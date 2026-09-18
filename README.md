@@ -1,13 +1,21 @@
 <div align="center">
 
+<p align="center">
+  <a href="https://fr.wikipedia.org/wiki/C_(langage)"><img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C Language"></a>
+  <a href="https://github.com/42School/norminette"><img src="https://img.shields.io/badge/Norminette-v4-brightgreen?style=for-the-badge&logo=42&logoColor=white" alt="Norminette"></a>
+  <a href="https://github.com/42Paris/minilibx-linux"><img src="https://img.shields.io/badge/MiniLibX-Linux-orange?style=for-the-badge&logo=linux&logoColor=white" alt="MiniLibX Linux"></a>
+  <a href="https://fr.wikipedia.org/wiki/École_42"><img src="https://img.shields.io/badge/Licence-42-lightgrey?style=for-the-badge&logo=42&logoColor=white" alt="Licence 42"></a>
+</p>
+
 # So long
 
-**Projet 42 : Petit jeu 2D réalisé avec la MiniLibX**
+<p align="center">
+  <strong>Projet 42</strong>
+</p>
 
-[![C](https://img.shields.io/badge/langage-C-blue.svg)](https://fr.wikipedia.org/wiki/C_(langage))
-[![Norme](https://img.shields.io/badge/norminette-42-green.svg)](https://github.com/42School/norminette)
-[![MiniLibX](https://img.shields.io/badge/MiniLibX-Linux-orange.svg)](https://github.com/42Paris/minilibx-linux)
-[![Licence](https://img.shields.io/badge/licence-42-lightgrey.svg)](https://fr.wikipedia.org/wiki/École_42)
+<p align="center">
+  Petit jeu 2D réalisé avec la MiniLibX
+</p>
 
 </div>
 
