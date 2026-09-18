@@ -1,8 +1,8 @@
 <div align="center">
 
-# so_long
+# So long
 
-**Projet 42 — Petit jeu 2D réalisé avec la MiniLibX**
+**Projet 42 : Petit jeu 2D réalisé avec la MiniLibX**
 
 [![C](https://img.shields.io/badge/langage-C-blue.svg)](https://fr.wikipedia.org/wiki/C_(langage))
 [![Norme](https://img.shields.io/badge/norminette-42-green.svg)](https://github.com/42School/norminette)
@@ -15,7 +15,7 @@
 
 ## À propos
 
-`so_long` est un projet de l'école 42 qui consiste à créer un petit jeu vidéo 2D
+`So_long` est un projet de l'école 42 qui consiste à créer un petit jeu vidéo 2D
 en langage **C** à l'aide de la bibliothèque graphique **MiniLibX**.
 
 Le joueur évolue dans un labyrinthe, doit **collecter tous les objets** puis
@@ -51,12 +51,16 @@ clavier/souris.
 
 Le projet est développé pour **Linux** (X11).
 
+<div align="center">
+
 | Dépendance   | Description                          |
 |--------------|--------------------------------------|
 | `gcc` / `clang` | Compilateur C                     |
 | `xorg`       | Serveur graphique X11                |
 | `x11-dev`    | En-têtes et bibliothèques X11        |
 | `zlib1g-dev` | Compression (requis par le chargement XPM) |
+
+</div>
 
 ### Installation des dépendances (Debian/Ubuntu)
 
@@ -98,6 +102,8 @@ make re         # recompile depuis zéro
 
 ## Contrôles
 
+<div align="center">
+
 | Touche        | Action                                |
 |---------------|---------------------------------------|
 | `Z` (↑)       | Déplacer le joueur vers le haut       |
@@ -105,6 +111,8 @@ make re         # recompile depuis zéro
 | `S` (↓)       | Déplacer le joueur vers le bas        |
 | `D` (→)       | Déplacer le joueur vers la droite     |
 | `Échap` / `Esc` | Fermer le jeu proprement (partie bonus) |
+
+</div>
 
 > Le compteur de mouvements est incrémenté à chaque déplacement du joueur.
 
@@ -116,6 +124,8 @@ Les cartes sont des fichiers texte dont chaque caractère représente une tuile.
 Le fichier doit être **entouré de murs** (`1`) et peut être suivi d'un saut de
 ligne final.
 
+<div align="center">
+  
 | Symbole | Signification            |
 |---------|--------------------------|
 | `0`     | Sol vide                 |
@@ -124,6 +134,8 @@ ligne final.
 | `E`     | Sortie                   |
 | `P`     | Position de départ       |
 | `M`     | Ennemi *(bonus)*         |
+
+</div>
 
 ### Exemple
 
@@ -180,6 +192,8 @@ so_long/
 
 Plusieurs cartes de test sont fournies dans le dossier `so_long/` :
 
+<div align="center">
+
 | Fichier              | Description                          |
 |----------------------|--------------------------------------|
 | `carte_01.ber`       | Carte simple (partie obligatoire)    |
@@ -188,13 +202,18 @@ Plusieurs cartes de test sont fournies dans le dossier `so_long/` :
 | `carte_03_bonus.ber` | Carte avec ennemis `M` *(bonus)*     |
 | `carte_04_bonus.ber` | Carte bonus                         |
 
+</div>
+
 ---
+
 
 ## Auteur
 
-**Alexandre Lamizana** — `alamizan@student.42.fr`
+**Alex Lamizana** : Étudiant 42 Angoulême, spécialisation Data & IA
 
-Projet réalisé dans le cadre de la formation à l'[École 42](https://42.fr).
+- [Site](https://lamizana.github.io/ZehdBox/)
+- [GitHub](https://github.com/Lamizana)
+
 
 <div align="center">
 
